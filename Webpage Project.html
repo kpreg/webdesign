@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KP's Cars</title>
+	<link href="https://fonts.googleapis.com/css?family=Fugaz+One|Pacifico" rel="stylesheet">
+	<style>
+		#title
+		{
+			animation-name: titlean;
+			animation-duration: 5s;
+			text-align:center;
+			font-size:50px;
+			margin-top:20px;
+			margin-bottom:20px;
+			text-shadow: 1px 1px 2px black;
+			font-family:'Fugaz One';
+			color:grey;
+		}
+		body
+		{
+		font-family:"Garamond"
+		}
+		@keyframes titlean
+		{
+			0%
+			{
+			font-size:70px;
+			margin-top:300px;
+			margin-bottom:20px;
+			opacity:.3
+			}
+			15%
+			{
+			opacity:1
+			}
+			70%
+			{
+			font-size:70px;
+			margin-top:300px;
+			}
+			100%
+			{
+			font-size:50px;
+			margin-top:20px;
+			margin-bottom:20px;
+			opacity:1
+			}
+		}
+		#line1
+		{
+		animation-name:linegrow;
+		animation-duration:6s;
+		margin-bottom: auto;
+		}
+		@keyframes linegrow
+		{
+			0%
+			{
+			width:0%;
+			opacity:0
+			}
+			69% 
+			{
+			opacity:0;
+			width:0%;
+			}
+			70%
+			{
+			opacity:1
+			}
+			100%
+			{
+			width:100%;
+			}
+		}
+		ul,li
+		{
+			display:inline;
+			margin-top:0px;
+		}
+		li
+		{
+			padding:20px 80px 28px 80px;
+		}
+		#car1,#car2,#car3,#home
+		{
+			font-family:"impact";
+			font-style:italic;
+			font-size:20px;
+		}
+		#car1:hover
+		{
+		text-shadow: 2px 2px 0px #E37B15;
+		cursor:pointer;
+		}
+		#home:hover
+		{
+		text-shadow: 2px 2px 0px grey;
+		cursor:pointer;
+		}
+		#car3:hover
+		{
+		text-shadow: 2px 2px 0px #009E9E;
+		cursor: pointer;
+		}
+		#navbar
+		{
+			animation-name:navpop1;
+			animation-duration:8s;
+			opacity:1;
+		}
+		@keyframes navpop1
+		{
+			0%
+			{
+			opacity:0;
+			}
+			60%
+			{
+			opacity:0;
+			display:none;
+			}
+			100%
+			{
+			opacity:1;
+			display:block;
+			}
+		}
+	
+	
+	#welcome 
+
+	{
+	font: 400 40px/1.5 'Pacifico', Helvetica, sans-serif;
+	color: #2b2b2b;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align:center;
+	}
+	.subtitle
+	{
+	text-align:center;
+	}
+	#subtitle1
+	{
+	height:300px;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	font-family:Calibri;
+	font-size:18px;
+	}
+	
+	
+	#bodyfade
+	{
+	animation-name:bodyfadeanimation;
+	animation-duration:8.5s;
+	animation-delay:0s;
+	resize:none;
+	}
+	@keyframes bodyfadeanimation
+	{
+	0%
+	{opacity:0}
+	60%
+	{opacity:0}
+	100%
+	{opacity:1}
+	}
+	
+	
+	a
+	{
+	text-decoration:none;
+	color:black;
+	}
+	</style>
+</head>
+<body>
+	<p id="title">KP's Favorite Cars</p>
+	<hr id="line1">
+	<div id="navbar">
+	<ul id="nav"><center>
+		<li id="home"><a href= "Webpage Project.html">Home</a></li>
+		<li id="car1"><a href="porsche.html">Porsche</a></li>
+		<li id="car3"><a href="Aston Martin.html">Aston Martin</a></li>
+		</center></ul>
+	</div>
+	<hr id="line1">
+<br><br><br>
+<div id="bodyfade">
+<div id= "porsche">
+<p id="welcome">Welcome from KP!</p>
+<div id="subtitle1">
+<p class ="subtitle">On this website, you'll find some of my favorite cars. I focused on my faforites from Porsche, Lamborghini, and Aston Martin. To navigate, use the navigtion bar below "KP's Favorite Cars"</p>
+<p class="subtitle">
+	While I hope the below information will answer any questions you may have, Wikipedia is a great resource for learning more about the intricacies of modern cars.
+	</p>
+<center>
+	<details>
+	<summary>What Is Torque?</summary>
+	In the context of a car, torque is what provides the "oomph", or the power which shoves you in your seat during hard acceleration. Horsepower is a function of Torque.
+	In the context of a car, torque is what provides the "oomph", or the power which shoves you in your seat during hard acceleration. Horsepower is a function of Torque.
+	</details>
+	<br>
+	<details>
+	<summary>What is a good 0-60 time?</summary>
+	Anything under 5 seconds is considered to be sporty, while anything under 3.5 seconds is considered a supercar. The fastest 0-60, which is currently held by the Dodge Challenger Hellcat, is 2.3 seconds.
+	</details>
+	<br>
+	<details>
+	<summary>What is a V12? Why is it important?</summary>
+	A V12 Engine is an engine with 12 cylinders. Typically, V12 engines are found in high end exotic cars due to their complexity to manufacture and high cost of materials. Most are also in a twin turbo configuration, which takes advantage of the engine's large amount of waste exhuast gas and uses it to force more air into the engine. However, Ferrari and Lamborghini still use naturally apsirated (no turbochargers or superchargers) engines.
+	</details>
+	
+	</center>
+</div>
+</div>
+	</div>
+</body>
+</html>
